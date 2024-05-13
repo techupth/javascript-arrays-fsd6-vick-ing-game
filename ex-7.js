@@ -43,8 +43,8 @@ let orders = [
 
 // Start coding here
 let isArray = Array.isArray(orders);
-orders[2].creditCardType = "visa";
 let creditCardTypeOfBlindermann = orders[2].creditCardType;
+orders[2].creditCardType = "visa";
 let productQuantityOfJoannet = orders[3].productQuantity;
 let totalPurchaseOfDary = orders[1].productPrice * orders[1].productQuantity;
 

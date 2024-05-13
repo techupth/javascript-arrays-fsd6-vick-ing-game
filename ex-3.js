@@ -15,6 +15,7 @@ const employees = [
 let alex = employees[1].name;
 let alexHobbies = employees[1].hobbies;
 let alexAndJamesAge = employees[0].age + employees[1].age;
-employees[1].hobbies.push("Watching basketball");
+employees[1].hobbies.push("Watching basketball"); //เพิ่มลำดับท้าย
+employees[1].hobbies.unshift("Watching basketball"); //แทรกลำดับแรก
 
-console.log(employees[1]);
+console.log(employees[0]);
